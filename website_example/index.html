@@ -90,8 +90,8 @@
 <!-- Footer -->
 <footer>
     <div class="text-muted">
-        <span data-tkey="poweredBy">Powered by</span> <a target="_blank" href="https://github.com/dvandal/cryptonote-nodejs-pool"><i class="fa fa-github"></i> cryptonote-nodejs-pool</a>
-        <span id="poolVersion"></span>
+        <span data-tkey="poweredBy">Powered by</span> <a target="_blank" href="https://github.com/idlechain/idlechain-nodejs-pool"><i class="fa fa-github"></i> idlechain-nodejs-pool</a>
+        <span id="poolVersion">1.0</span>
         <span class="hidden-xs"><span data-tkey="openSource">open sourced under the</span> <a href="http://www.gnu.org/licenses/gpl-2.0.html">GPL</a></span>
     </div>
 </footer>
@@ -174,7 +174,7 @@ function updateIndex(){
     else{
         updateText('g_userHashrate', 'N/A');
     }
-    updateText('poolVersion', lastStats.config.version);
+    //updateText('poolVersion', lastStats.config.version);
 }
 
 // Load live statistics
